@@ -1,6 +1,6 @@
 - # [Official Site](https://www.arweave.org/)
 - #Mail
-	- [Weve](https://wevemail.arweave.de)
+	- [Weve](https://wevemail.arweave.dev)
 -
 - Extracted from a [mem](https://mem.ai/p/qTe0z28zDAJi5mx3W8WI) of [Mem.ai](https://mem.ai).
 - ## Arweave will never use a fee market for storage
