@@ -29,6 +29,8 @@
 - #Web3
 	- [Erc721 vs Erc721a Batch minting nfts](https://www.alchemy.com//blog/erc721-vs-erc721a-batch-minting-nfts)
 	- [NFT drop with revenue share](https://blog.thirdweb.com/guides/nft-drop-with-revenue-share/)
+	- #Storage
+		- [[Arweave]]
 - #Code
 	- [From Junior to Genius: an optimization story](https://itnext.io/from-junior-to-genius-an-optimization-story-ab20afc8159d)
 	- #Playground [Scroll Indicator](https://play.tailwindcss.com/cB8FNN70zd)
