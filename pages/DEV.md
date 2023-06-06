@@ -2,6 +2,27 @@
 - Alacritty
 - Tmux
 - [[Nvim]]
+- [Transcrypt](https://github.com/elasticdog/transcrypt)
+	- #FishShell
+		- encryptText.fish
+		- ```
+		  function encryptText
+		      echo $argv | openssl aes-256-cbc -a -salt
+		  end
+		  ```
+		- decryptText.fish
+		- ```
+		  function decryptText
+		      echo $argv | openssl aes-256-cbc -a -d -salt
+		  end
+		  ```
+		- encryptGitFile.fish
+		- ```
+		  function encryptGitFile
+		    echo "$argv filter=crypt diff=crypt merge=crypt" >> .gitattributes;
+		    git add .gitattributes $argv
+		  end
+		  ```
 - # Articles
 - #BTCMaximalist
 	- [Cryptography is not enough](https://dergigi.com/2022/09/10/cryptography-is-not-enough/)
