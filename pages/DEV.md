@@ -19,8 +19,16 @@
 		- encryptGitFile.fish
 		- ```
 		  function encryptGitFile
-		    echo "$argv filter=crypt diff=crypt merge=crypt" >> .gitattributes;
-		    git add .gitattributes $argv
+		    if not set -q argv[2]
+		      echo "$argv[1] filter=crypt diff=crypt merge=crypt" >> .gitattributes;
+		      git add .gitattributes $argv[1]
+		    else if not string length -q -- "$argv[2]"
+		      echo "$argv[1] filter=crypt diff=crypt merge=crypt" >> .gitattributes;
+		      git add .gitattributes $argv[1]
+		    else
+		      echo "$argv[1] filter=crypt-$argv[2] diff=crypt-$argv[2] merge=crypt-$argv[2]" >> .gitattributes;
+		      git add .gitattributes $argv[1]
+		    end
 		  end
 		  ```
 - # Articles
