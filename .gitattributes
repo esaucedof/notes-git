@@ -10,3 +10,5 @@ pages/U2FsdGVkX1++qEIrOtJGglj2TjpHKkCTBxpU106Cj1U=.md filter=crypt-bsn-f diff=cr
 pages/U2FsdGVkX18iEFSq4ZI5pEB8BPAQ6t6BrjoYsxM1n38=.md filter=crypt-bsn-a diff=crypt-bsn-a merge=crypt-bsn-a
 pages/U2FsdGVkX1+i8eSZFlEiNbSphhWT389ipQXV8Z6I7V4=.md filter=crypt-bsn-g diff=crypt-bsn-g merge=crypt-bsn-g
 pages/U2FsdGVkX1930ghNrQmNoiCkdl1pjqguTB7qmkYNi6k=.md filter=crypt diff=crypt merge=crypt
+journals/2023_06_08.md filter=crypt diff=crypt merge=crypt
+journals/2023_06_09.md filter=crypt diff=crypt merge=crypt
